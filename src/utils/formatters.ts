@@ -21,6 +21,9 @@ export function formatCurrency(
 
 /**
  * Format a date object or string into a readable date string.
+ * Uses destructured options with individual defaults
+ * to avoid losing default values when partial options are provided.
+ *
  * @param date - The date to format
  * @param locale - The locale string (default: 'en-US')
  * @param options - Intl.DateTimeFormatOptions
@@ -28,30 +31,35 @@ export function formatCurrency(
 export function formatDate(
   date: Date | string | number,
   locale: string = 'en-US',
-  options: Intl.DateTimeFormatOptions = {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  },
+  {
+    year = 'numeric',
+    month = 'long',
+    day = 'numeric',
+  }: Intl.DateTimeFormatOptions = {},
 ): string {
   const dateObj = new Date(date);
-  // Check for invalid date
+
   if (Number.isNaN(dateObj.getTime())) {
     return '-';
   }
-  return new Intl.DateTimeFormat(locale, options).format(dateObj);
+
+  return new Intl.DateTimeFormat(locale, {
+    year,
+    month,
+    day,
+  }).format(dateObj);
 }
 
 /**
  * Compact number formatting for large numbers (e.g., 1.2k, 1M).
  */
 export function formatCompactNumber(
-  number: number,
+  value: number,
   locale: string = 'en-US',
 ): string {
   return new Intl.NumberFormat(locale, {
     notation: 'compact',
     compactDisplay: 'short',
     maximumFractionDigits: 1,
-  }).format(number);
+  }).format(value);
 }
