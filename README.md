@@ -15,30 +15,30 @@ Designed for developer experience, code quality, and long-term maintainability. 
 
 ---
 
-## ✨ Features
+## Features
 
-### ⚡️ Core Stack
+### Core Stack
 
 - **[Vue 3.5+](https://vuejs.org/)**: Utilizing the Composition API with `<script setup>` for concise and performant components.
 - **[TypeScript 5.9+](https://www.typescriptlang.org/)**: configured with `strict: true` and `noUncheckedIndexedAccess` for maximum type safety.
 - **[Vite 7](https://vitejs.dev/)**: Next-generation frontend tooling with instant server start and lightning-fast HMR.
 - **[Tailwind CSS 4.1](https://tailwindcss.com/)**: The latest utility-first CSS framework, integrated via the new Vite plugin for optimal performance.
 
-### 🛠 Developer Experience
+### Developer Experience
 
 - **[ESLint](https://eslint.org/)**: Powered by [@antfu/eslint-config](https://github.com/antfu/eslint-config) for a zero-config, opinionated linting and formatting experience.
 - **[Husky](https://typicode.github.io/husky/) & [lint-staged](https://github.com/okonet/lint-staged)**: Ensures all committed code meets quality standards.
 - **[Commitlint](https://commitlint.js.org/)**: Enforces [Conventional Commits](https://www.conventionalcommits.org/) for clean and semantic git history.
 - **[VueUse](https://vueuse.org/)**: A collection of essential Vue Composition Utilities.
 
-### 🧩 Architecture
+### Architecture
 
 - **[Pinia](https://pinia.vuejs.org/)**: The intuitive, type-safe store for Vue.
 - **[Vue Router](https://router.vuejs.org/)**: Standard routing with history mode and lazy-loading support.
 - **File-Based Routing**: Structured `views` directory for clear page organization.
 - **Path Aliases**: `@/` configured to resolve to `./src/`.
 
-### 🧪 Testing & Quality
+### Testing & Quality
 
 - **[Vitest](https://vitest.dev/)**: Blazing fast unit testing framework, API-compatible with Jest.
 - **[GitHub Actions](https://github.com/features/actions)**: Automated CI pipeline for linting, type-checking, and testing.
@@ -46,7 +46,7 @@ Designed for developer experience, code quality, and long-term maintainability. 
 
 ---
 
-## 💻 IDE Setup
+## IDE Setup
 
 For the best experience, we recommend **[VS Code](https://code.visualstudio.com/)** with the following configuration:
 
@@ -64,7 +64,7 @@ For the best experience, we recommend **[VS Code](https://code.visualstudio.com/
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 Ensure your environment meets the following requirements:
 
@@ -75,7 +75,7 @@ Ensure your environment meets the following requirements:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -100,7 +100,7 @@ The application will be available at `http://localhost:5173/`.
 
 ---
 
-## 📜 Available Scripts
+## Available Scripts
 
 | Category        | Script               | Description                               |
 | :-------------- | :------------------- | :---------------------------------------- |
@@ -117,7 +117,7 @@ The application will be available at `http://localhost:5173/`.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 .
@@ -146,7 +146,7 @@ The application will be available at `http://localhost:5173/`.
 
 ---
 
-## 🔧 Configuration Details
+## Configuration Details
 
 ### TypeScript
 
@@ -165,7 +165,7 @@ We utilize **@antfu/eslint-config**, which provides a curated set of rules for V
 
 ---
 
-## 🚢 Deployment
+## Deployment
 
 ### Static Hosting (Vercel, Netlify, etc.)
 
@@ -177,7 +177,7 @@ This project builds a static SPA.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1.  **Fork** the repository.
 2.  **Create** a feature branch: `git checkout -b feat/my-feature`.
@@ -187,6 +187,6 @@ This project builds a static SPA.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
