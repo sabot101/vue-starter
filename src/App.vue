@@ -1,10 +1,9 @@
 <!-- src/App.vue -->
 <script setup lang="ts">
-import { computed } from 'vue';
-import { RouterView, useRoute } from 'vue-router';
-
 import BlankLayout from '@/layouts/BlankLayout.vue';
 import DefaultLayout from '@/layouts/DefaultLayout.vue';
+import { computed } from 'vue';
+import { RouterView, useRoute } from 'vue-router';
 
 const route = useRoute();
 

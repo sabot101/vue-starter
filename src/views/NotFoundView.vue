@@ -1,8 +1,7 @@
 <!-- src/views/NotFoundView.vue -->
 <script setup lang="ts">
-import { RouterLink } from 'vue-router';
-
 import BaseButton from '@/components/common/BaseButton.vue';
+import { RouterLink } from 'vue-router';
 </script>
 
 <template>

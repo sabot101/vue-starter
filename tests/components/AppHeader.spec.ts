@@ -1,8 +1,7 @@
+import AppHeader from '@/components/common/AppHeader.vue';
 // tests/components/AppHeader.spec.ts
 import { mount, RouterLinkStub } from '@vue/test-utils';
 import { describe, expect, it } from 'vitest';
-
-import AppHeader from '@/components/common/AppHeader.vue';
 
 describe('appHeader Component', () => {
   it('renders logo and navigation links', () => {
