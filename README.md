@@ -3,9 +3,9 @@
 ![CI Quality](https://github.com/pharmacist-sabot/vue-starter/actions/workflows/ci.yml/badge.svg)
 [![Vue](https://img.shields.io/badge/Vue-3.5+-4FC08D?logo=vue.js)](https://vuejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9+-3178C6?logo=typescript)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-7.0+-646CFF?logo=vite)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1+-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
-[![Vitest](https://img.shields.io/badge/Vitest-4.0+-6E9F18?logo=vitest)](https://vitest.dev/)
+[![Vite](https://img.shields.io/badge/Vite-8.0+-646CFF?logo=vite)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.2+-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
+[![Vitest](https://img.shields.io/badge/Vitest-4.1+-6E9F18?logo=vitest)](https://vitest.dev/)
 [![pnpm](https://img.shields.io/badge/pnpm-10.17+-F69220?logo=pnpm)](https://pnpm.io/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
